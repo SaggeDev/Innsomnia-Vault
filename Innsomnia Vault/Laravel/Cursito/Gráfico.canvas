@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"50b5881cc0c8ed97","type":"group","x":-800,"y":400,"width":2160,"height":960,"label":"Sintaxis y convenciones"},
+		{"id":"fdcd1c5461862f5d","type":"group","x":1440,"y":-560,"width":1320,"height":1000,"label":"Extras"},
+		{"id":"1564a2b2a01062c9","type":"file","file":"Laravel/Cursito/Logica/Rutas.md","x":-720,"y":-320,"width":400,"height":400,"color":"2"},
+		{"id":"89ff3073ff91f12a","type":"file","file":"Laravel/Cursito/Logica/Controladores.md","x":-18,"y":-54,"width":400,"height":400,"color":"2"},
+		{"id":"6801dc33ced763de","type":"text","text":"Las rutas usan los controladores para indicar los pasos a seguir","x":-300,"y":-80,"width":250,"height":114,"color":"1"},
+		{"id":"bbc0f73e87978be5","type":"text","text":"Archivos que realizan una función cuando se les llaman ","x":132,"y":-151,"width":250,"height":97,"color":"4"},
+		{"id":"9d10e10f01b0e6d2","type":"text","text":"Un \"Switch\" de caso de uso para ciertas llamadas definidas ","x":-570,"y":-417,"width":250,"height":97,"color":"4"},
+		{"id":"ab9e0ca62c91b419","type":"file","file":"Laravel/Cursito/Extra/NameSpace.md","x":-800,"y":440,"width":400,"height":400,"color":"3"},
+		{"id":"8ed077aa87fb949b","type":"text","text":"El contenido que se va a mostrar y su estructura","x":835,"y":-477,"width":250,"height":60,"color":"4"},
+		{"id":"d1eb7e996764ffad","type":"file","file":"Laravel/Cursito/Modelo/Vistas.md","x":685,"y":-417,"width":400,"height":400,"color":"2"},
+		{"id":"441ef33438abecdf","type":"file","file":"Laravel/Cursito/Extra/Creación de archivos desde terminal.md","x":960,"y":440,"width":400,"height":400,"color":"5"},
+		{"id":"45ad7c0f0e62cf50","type":"text","text":"Los controladores usan las vistas para mostrar información","x":382,"y":-34,"width":250,"height":114,"color":"1"},
+		{"id":"4f53cf6b0aa64bbf","type":"file","file":"Laravel/Cursito/Modelo/Tailwind.md","x":1480,"y":-477,"width":400,"height":400,"color":"3"},
+		{"id":"24b771958f42de05","type":"text","text":"Bootstrap con colores","x":1630,"y":-537,"width":250,"height":60,"color":"4"},
+		{"id":"8eb5c91f59b5a898","x":1040,"y":-1000,"width":400,"height":400,"color":"2","type":"file","file":"Laravel/Cursito/Modelo/Componentes.md"},
+		{"id":"955b428e73f54fee","type":"text","text":"Los componentes son bloques de codigo que se repiten ","x":1115,"y":-474,"width":250,"height":114,"color":"1"}
+	],
+	"edges":[
+		{"id":"8c6fff5b4a7a1a52","fromNode":"1564a2b2a01062c9","fromSide":"right","toNode":"89ff3073ff91f12a","toSide":"left","color":"1"},
+		{"id":"54cb245568dc3b4a","fromNode":"441ef33438abecdf","fromSide":"top","toNode":"89ff3073ff91f12a","toSide":"bottom","color":"5"},
+		{"id":"36a6585b49a464ff","fromNode":"89ff3073ff91f12a","fromSide":"right","toNode":"d1eb7e996764ffad","toSide":"left","color":"1"},
+		{"id":"96df80c422515edc","fromNode":"d1eb7e996764ffad","fromSide":"right","toNode":"8eb5c91f59b5a898","toSide":"bottom","color":"1"}
+	]
+}

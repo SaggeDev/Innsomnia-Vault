@@ -1,0 +1,2 @@
+Para que pueda redirigir a través de una ruta alterna a la dirección de localhost.....:
+[C:/Microsoft/system32/etc/hosts.txt]Hay que poner la ip que usa y al lado la dirección y posteriormente informarle a apache, pero hace falta permisos de admin  o sea que saltamos.
