@@ -72,3 +72,41 @@ Route::get('/posts/{id?}', function ($id=null) {//El ? es lo que lo hace opciona
 ```
 ## Expansión
 Cuando se necesite expandir las funcionalidades de el web.php(y lo harán) haremos uso de los [Controladores](obsidian://open?vault=Innsomnia%20Vault&file=Laravel%2FCursito%2FControladores)
+# Aplicar un alias
+Gracias a [Pablo Santigo](https://github.com/PabSdev) ahora conozco una forma de crear un alias para una ruta.
+Los alias sirven para hacer redireccione desde otros *endpoints* a otros *endpoints* de forma dinámica.
+Caso Ejemplo: Existe una página de inicio que tiene que hacer contacto con otra(redes sociales por ejemplo), pero estas rutas pueden cambiar, para eso está el name.
+	SOLO HACE FALTA PONER name() EN EL web.php
+## Estático
+### web.php
+```php
+Route::get('/posts', [PostController::class, 'show'])->name('postIndex');
+```
+### Como usarlo
+#### Blade
+```php
+<a href="{{ route('postIndex') }}">View All Posts</a>
+```
+#### Controlador
+```php
+return redirect()->route('postIndex');
+
+//La url queda como
+$url = route('posts.index');
+```
+## Dinámico
+### web.php
+```php
+Route::get('/posts/{id}', [PostController::class, 'show'])->name('showPosts');
+```
+### Como usarlo
+#### Blade
+```php
+<a href="{{ route('showPosts', ['id' => 10]) }}">View Post</a>
+//Busca donde se estableció el alias y le pasa un parámetro
+```
+Generará una url como esta: ...../posts/10
+#### Controlador
+```php
+$url = route('showPosts', ['id' => 10]);
+```
