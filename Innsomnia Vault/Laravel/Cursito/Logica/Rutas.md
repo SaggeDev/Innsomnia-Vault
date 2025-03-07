@@ -110,3 +110,9 @@ Generará una url como esta: ...../posts/10
 ```php
 $url = route('showPosts', ['id' => 10]);
 ```
+## Protocolo
+Dependiendo del protocolo HTTP que se use, se pude poner una ruta u otra, laravel corrige/escoge la ruta asociada dependiendo del protocolo:
+```php
+Route::post('/posts', [PostController::class, 'store'])->name('storePost');
+Route::get('/posts', [PostController::class, 'index']);
+```

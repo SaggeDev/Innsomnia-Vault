@@ -29,6 +29,26 @@ Route::get('/getAllPosts', function(){
 	return $post;
 });
 ```
+
+Otro
+```php
+public function store(){
+        return request()->all();//Este helper devuelve todos los datos de la petición de un formulario que recibe
+        // {
+        //     "_token": "kh32tKWhIeqfdEAq3GRnfOTcy9rnJtB6ObZQFeUp",
+        //     "title": "ae",
+        //     "content": "safasf",
+        //     "category": "sadfas",
+        //     "avatar": "sadfa"
+        //   }
+    }
+```
+o
+```php
+public function store(Request $request){
+    return $request->all();
+}
+```
 ## Filtro(WHERE)
 Para filtrar por campos la sintaxis e similar
 ```php

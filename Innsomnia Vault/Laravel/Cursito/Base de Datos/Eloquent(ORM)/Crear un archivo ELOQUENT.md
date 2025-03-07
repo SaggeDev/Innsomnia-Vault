@@ -22,7 +22,7 @@ class Post extends Model
 ```
 # Y si el documento estuviera vacío?
 ```php
-<?php
+<?php//Ejemlo de vacio
 
 namespace App\Models;
 
