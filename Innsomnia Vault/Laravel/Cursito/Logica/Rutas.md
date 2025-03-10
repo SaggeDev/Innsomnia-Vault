@@ -48,7 +48,7 @@ Route::get('/posts/{id}', function ($id) {//Si se escribe {}, el laravel lo reco
     return "Aqui se mostrará el post : {$id}";//Y luego se interactúa
 //A menos que se identifique o se fuerce un tipo sobre el dato especificado, puede ser de cualquier tipo, por eso ojo con las operaciones aritmeticas
 ```
-Pero hay que tener cuidado con esto porque como se lee Arriba a abajo, hay que poner los *resultados paramétricos* los últimos.
+Pero hay que tener cuidado con esto porque como se lee Arriba a bajo, hay que poner los *resultados paramétricos* los últimos.
 ### Varios parámetros
 Es casi lo mismo
 ```php
