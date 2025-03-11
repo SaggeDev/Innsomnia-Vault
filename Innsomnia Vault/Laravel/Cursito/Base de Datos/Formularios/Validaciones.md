@@ -46,6 +46,15 @@ En vez de usar un @if o php, lo que hace es crear bajo el campo un campo @error
 # Más filtros
 Existen un conjunto de filtros que se pueden añadir por campo:
 https://laravel.com/docs/11.x/validation#available-validation-rules
-```php
+Ponle que tienes una validación que exige que tu campo(slug por ejemplo) sea único, y al editar es una inserción put pero la condición ya lo reconoce. Pues LAravel ya tiene un caso de uso para eso toma ya:
+## Varios parámetros
 
+```php
+$request->validate([//NO ES EL ORIGINAL
+    'title' => 'required|max:255|min:5',
+    'content' => 'required',
+	'slug'=>"required|unique:posts,slug,{$post->id}"//Yo cuando le paso esto al programa le digo que quiero que compruebe con todos los resultados MENOS este
+    'category' => 'required',
+    'avatar' => 'required'
+]);
 ```
