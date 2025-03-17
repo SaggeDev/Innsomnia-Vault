@@ -1,0 +1,1 @@
+Eloquent es un ORM(Object Relational Mapping) de Laravel para ejecutar registros en la db.

@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"cbbca9570722f0e4","type":"group","x":-480,"y":-840,"width":1060,"height":1300},
+		{"id":"45bb992040a7a111","type":"group","x":-480,"y":-680,"width":1060,"height":1140,"label":"StrictMode"},
+		{"id":"dba9148f22c0cb12","type":"group","x":-480,"y":-640,"width":1060,"height":1100},
+		{"id":"a829bb8a9060befb","type":"group","x":-480,"y":-440,"width":1060,"height":900},
+		{"id":"78f493654861cb51","type":"group","x":-480,"y":-240,"width":1060,"height":700},
+		{"id":"ed4dc26dc5602935","type":"group","x":-480,"y":-40,"width":1060,"height":500},
+		{"id":"433c740f274955a7","type":"file","file":"Innsomnia-Vault-main/Innsomnia Vault/React con vite/1º Autorización simple/ContextProvider.md","x":-480,"y":-640,"width":400,"height":160},
+		{"id":"0a58040c68415968","type":"file","file":"Innsomnia-Vault-main/Innsomnia Vault/React con vite/1º Autorización simple/Router.md","x":-480,"y":-440,"width":400,"height":160},
+		{"id":"d650c7ba8215b0cc","type":"file","file":"Innsomnia-Vault-main/Innsomnia Vault/React con vite/1º Autorización simple/Layouts.md","x":-480,"y":-240,"width":400,"height":160},
+		{"id":"3e5f06e775df76d9","type":"file","file":"Innsomnia-Vault-main/Innsomnia Vault/React con vite/1º Autorización simple/Main.jsx.md","x":-480,"y":-840,"width":400,"height":120},
+		{"id":"0a76d3265c063e92","type":"file","file":"Innsomnia-Vault-main/Innsomnia Vault/React con vite/1º Autorización simple/Vista.md","x":-480,"y":-40,"width":400,"height":150}
+	],
+	"edges":[]
+}

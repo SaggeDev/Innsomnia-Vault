@@ -1,0 +1,1 @@
+Es el sistema de noticias de la página.
